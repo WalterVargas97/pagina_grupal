@@ -1,0 +1,81 @@
+
+.container{
+background-color:  #fdfdfc  ;
+/* background-color: #f7f7f6; */
+}
+.shop {
+  width: auto; 
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+ 
+}
+.shop__boton {
+  background-color: rgba(0, 0, 0, 1);
+  border: none;
+  color: white;
+  padding: 10px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 14px 2px;
+  cursor: pointer;
+}
+
+.letra{
+  /* width: 10%; */
+  height: 250px;
+  /* background-color: rgb(209, 111, 46); */
+  margin-left: 1rem;
+  padding: auto;
+}
+
+.alinear{
+  display: flex;
+  align-items: center;
+  
+}
+
+.imagen {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  /* padding: auto; */
+}
+
+.imageni {
+  width: 1000px;
+  
+}
+
+.caja1 {
+  width: 260px;
+  height: 150px;
+  /* background-color: aliceblue; */
+  /* line-height: 50px; */
+}
+
+
+/* --------estilo de letras */
+.shop__titulo {
+  font-size: 3rem;
+  letter-spacing: 3.5px;
+  text-align: left;
+  padding: 0px;
+  margin: 0%;
+  list-style: none;
+}
+
+.shop__titulo1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-align: left;
+  padding: 0px;
+  margin: 1px;
+}
+
+.shop_fot {
+  font-size: 0.7rem;
+  text-align: left;
+}
