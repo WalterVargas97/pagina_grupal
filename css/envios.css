@@ -10,7 +10,7 @@
     justify-content: space-between;
     list-style: none;
     color: white;
-    text-decoration: none;
+    text-decoration: none;  
 }
 
 .contenido_icono i{
@@ -50,5 +50,28 @@ div ul li div a{
 .separacion{
     display: flex;
 }
+/* ---Resposive for Phone/tablet---*/
+@media screen and (max-width:1080px) {
 
-@media
+    .tarjetas{
+        display: flex;
+        flex-flow: column wrap;
+        }
+    .contenido_texto{
+        padding: 0px 10px ;
+        
+    }
+    .contenido_icono{
+        display: flex ;
+       
+    }
+    .envios{
+        justify-content: center;
+    }
+    .contenido_icono i{
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+       
+    }
+}
