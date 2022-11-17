@@ -1,0 +1,65 @@
+.logos {
+    width: 100%;
+    height: 300px;
+    background-color:white;
+    text-align: center;
+}
+.featured_on {
+    display: inline-block;
+    position: relative;
+    margin: 40px 0px 0px 0px;
+}
+.featured_on::after, .featured_on::before{
+    content:"";
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    background-color:black ;
+    top:15px;
+}
+.featured_on::before{
+    left: -420px;
+}
+.featured_on::after{
+    right:-420px ;
+}
+.logos_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px 0px 60px;
+}
+.runway  {
+    height: 100px;
+    width: 250px;
+}
+.logue_magazine {
+    height: 100px;
+    width: 200px;
+}
+.cq{
+    height: 90px;
+    width: 100px;
+}
+@media (max-width:890px) {
+    .fashionista {
+        height: 100px;
+        width: 150px;
+    }
+    .runway {
+        height: 50px;
+        width: 125px;
+    }
+    .logos {
+        width: 100%;
+        height: 220px; ;
+    }
+    .cq {
+        height: 45px;
+        width: 50px;
+    }
+    .logue_magazine {
+        height: 50px;
+        width: 100px;
+    }
+}
