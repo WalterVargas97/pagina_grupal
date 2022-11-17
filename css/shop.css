@@ -1,6 +1,8 @@
 
 .container{
 background-color:  #fdfdfc  ;
+
+position: relative;
 /* background-color: #f7f7f6; */
 }
 .shop {
@@ -8,7 +10,6 @@ background-color:  #fdfdfc  ;
   padding-top: 3rem;
   padding-bottom: 3rem;
   display: flex;
- 
 }
 .shop__boton {
   background-color: rgba(0, 0, 0, 1);
@@ -24,16 +25,15 @@ background-color:  #fdfdfc  ;
 }
 
 .letra{
-  
-  height: 250px;
+  height: 240px;
   /* background-color: rgb(209, 111, 46); */
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
+
 
 .alinear{
   display: flex;
   align-items: center;
-
 }
 
 .imagen {
@@ -105,6 +105,48 @@ background-color:  #fdfdfc  ;
   .shop_fot {
     font-size: 0.65rem;
     text-align: left;
+  }
+  
+}
+@media screen and (max-width:707px) {
+  .shop__titulo{
+    font-size: 2rem; 
+  }
+  .shop__titulo1{
+    font-size: 1.3rem; 
+  }
+  .shop__boton{
+    padding: 8px 40px;
+    font-size: 12px;
+  }
+  .caja1 {
+    width: 170px;
+    height: 99px;  
+  }
+  .shop_fot {
+    font-size: 0.5rem;
+    text-align: left;
+  }
+  
+}
+@media screen and (max-width:535px) {
+  .shop__titulo{
+    font-size: 1.5rem; 
+  }
+  .shop__titulo1{
+    font-size: 1rem; 
+  }
+  .shop__boton{
+    padding: 8px 30px;
+    font-size: 8px;
+  }
+  .caja1 {
+    width: 140px;
+    height: 70px;  
+  }
+  .alinear{
+    display: flex;
+    align-items: center;
   }
   
 }
