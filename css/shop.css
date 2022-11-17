@@ -1,0 +1,152 @@
+
+.container{
+background-color:  #fdfdfc  ;
+
+position: relative;
+/* background-color: #f7f7f6; */
+}
+.shop {
+  width: auto; 
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+}
+.shop__boton {
+  background-color: rgba(0, 0, 0, 1);
+  border: none;
+  color: white;
+  padding: 10px 70px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  margin: 14px 2px;
+  cursor: pointer;
+}
+
+.letra{
+  height: 240px;
+  /* background-color: rgb(209, 111, 46); */
+  margin-left: 2rem;
+}
+
+
+.alinear{
+  display: flex;
+  align-items: center;
+}
+
+.imagen {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  /* padding: auto; */
+}
+
+.imageni {
+  width: 100%;
+  backdrop-filter: opacity(20%);
+}
+
+.caja1 {
+  width: 260px;
+  height: 150px;
+
+
+}
+
+
+/* --------estilo de letras */
+.shop__titulo {
+  font-size: 3rem;
+  letter-spacing: 3.5px;
+  text-align: left;
+  padding: 0px;
+  margin: 0%;
+  list-style: none;
+}
+
+.shop__titulo1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-align: left;
+  padding: 0px;
+  margin: 1px;
+}
+
+.shop_fot {
+  font-size: 0.8rem;
+  text-align: left;
+  padding: 15px 0px 0px 0px;
+}
+
+@media screen and (max-width:1080px) {
+  
+  .imageni {
+    width: 95%;
+    
+  }
+}
+@media screen and (max-width:980px) {
+  .shop__titulo{
+    font-size: 2.5rem; 
+  }
+  .shop__titulo1{
+    font-size: 1.6rem; 
+  }
+  .shop__boton{
+    padding: 8px 53px;
+    font-size: 13px;
+  }
+  .caja1 {
+    width: 260px;
+    height: 115px;  
+  }
+  .shop_fot {
+    font-size: 0.65rem;
+    text-align: left;
+  }
+  
+}
+@media screen and (max-width:707px) {
+  .shop__titulo{
+    font-size: 2rem; 
+  }
+  .shop__titulo1{
+    font-size: 1.3rem; 
+  }
+  .shop__boton{
+    padding: 8px 40px;
+    font-size: 12px;
+  }
+  .caja1 {
+    width: 170px;
+    height: 99px;  
+  }
+  .shop_fot {
+    font-size: 0.5rem;
+    text-align: left;
+  }
+  
+}
+@media screen and (max-width:535px) {
+  .shop__titulo{
+    font-size: 1.5rem; 
+  }
+  .shop__titulo1{
+    font-size: 1rem; 
+  }
+  .shop__boton{
+    padding: 8px 30px;
+    font-size: 8px;
+  }
+  .caja1 {
+    width: 140px;
+    height: 70px;  
+  }
+  .alinear{
+    display: flex;
+    align-items: center;
+  }
+  
+}
